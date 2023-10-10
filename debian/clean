@@ -1,0 +1,7 @@
+.pytest_cache/
+aiofiles.egg-info/
+.eggs/
+.tox/
+tests/.coverage
+excuses.yaml
+.pybuild/
