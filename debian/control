@@ -1,15 +1,26 @@
-Source: template-repository
-Section: unknown
+Source: aiofiles
+Section: python
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: David Steele <steele@debian.org>
+Build-Depends:
+    debhelper-compat (= 12),
+    dh-python,
+    pybuild-plugin-pyproject,
+    python3-all,
+    python3-toml,
+    python3-poetry-core,
+    python3-pytest,
+    python3-pytest-asyncio,
+    python3-hatchling,
+Standards-Version: 4.5.1
+Homepage: https://github.com/Tinche/aiofiles
+Vcs-Browser: https://github.com/davesteele/aiofiles/tree/debian
+Vcs-Git: https://github.com/davesteele/aiofiles.git -b debian
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: python3-aiofiles
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}
+Description: support for Python asyncio file operations
+ This module includes support for asynchronous file
+ operations using the Python asyncio module.

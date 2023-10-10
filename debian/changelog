@@ -1,5 +1,105 @@
-template-repository (1.0-1) unstable; urgency=medium
+aiofiles (23.2.1-2) unstable; urgency=medium
 
-  * Initial release
+  * Fix README autopkgtest
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- David Steele <steele@debian.org>  Mon, 21 Aug 2023 18:43:51 -0400
+
+aiofiles (23.2.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- David Steele <steele@debian.org>  Sun, 20 Aug 2023 23:45:35 -0400
+
+aiofiles (23.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- David Steele <steele@debian.org>  Wed, 08 Feb 2023 23:11:16 -0500
+
+aiofiles (22.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- David Steele <steele@debian.org>  Sun, 30 Oct 2022 15:23:16 -0400
+
+aiofiles (0.8.0-3) unstable; urgency=medium
+
+  * Fix deprecation warnings (Closes: #1009090).
+
+ -- David Steele <steele@debian.org>  Fri, 08 Apr 2022 10:59:54 -0400
+
+aiofiles (0.8.0-2) unstable; urgency=medium
+
+  * Remove unreliable unit test.
+
+ -- David Steele <steele@debian.org>  Wed, 26 Jan 2022 16:08:31 -0500
+
+aiofiles (0.8.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Builds using poetry (Closes: #995079)
+
+ -- David Steele <steele@debian.org>  Sun, 23 Jan 2022 20:52:59 -0500
+
+aiofiles (0.6.0-2) unstable; urgency=medium
+
+  * Fix autopkg tests to run across Python versions.
+
+ -- David Steele <steele@debian.org>  Tue, 15 Dec 2020 08:48:00 -0500
+
+aiofiles (0.6.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- David Steele <steele@debian.org>  Fri, 30 Oct 2020 21:26:31 -0400
+
+aiofiles (0.5.0-1) unstable; urgency=medium
+
+  [ David Steele ]
+  * New upstream version.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- David Steele <steele@debian.org>  Sat, 30 May 2020 12:44:04 -0400
+
+aiofiles (0.4.0-3) unstable; urgency=medium
+
+  * Fix autopkgtest.
+
+ -- David Steele <steele@debian.org>  Wed, 08 Jan 2020 21:46:46 -0500
+
+aiofiles (0.4.0-2) unstable; urgency=medium
+
+  * Add unittests to build/ci.
+
+ -- David Steele <steele@debian.org>  Thu, 13 Sep 2018 21:46:39 -0400
+
+aiofiles (0.4.0-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- David Steele <steele@debian.org>  Mon, 10 Sep 2018 18:40:35 -0400
+
+aiofiles (0.3.2-3) unstable; urgency=medium
+
+  * Add Vcs header lines to control.
+
+ -- David Steele <steele@debian.org>  Sun, 24 Dec 2017 15:32:02 -0500
+
+aiofiles (0.3.2-2) unstable; urgency=medium
+
+  * Add a python dependency.
+  * Autopkgtest.
+
+ -- David Steele <steele@debian.org>  Sat, 18 Nov 2017 21:50:35 -0500
+
+aiofiles (0.3.2-1) unstable; urgency=low
+
+  * Initial release. Closes: #880030
+
+ -- David Steele <steele@debian.org>  Sat, 28 Oct 2017 10:06:32 -0400
